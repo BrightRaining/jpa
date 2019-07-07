@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    primary:
+      jdbc-url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: root
+    secondary:
+      jdbc-url: jdbc:mysql://localhost:3306/springcloud_db02
+      username: root
+      password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
